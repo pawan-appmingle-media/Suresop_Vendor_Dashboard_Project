@@ -21,6 +21,7 @@ import Profile from "./components/Profile/Profile.jsx";
 // import ProtectedRoute from "./components/ProtectedRoute/ProtectedRoute.jsx";
 import CouponForm from "./components/CouponManagement/CouponForm.jsx";
 import Coupons from "./components/CouponManagement/CouponList.jsx";
+import Register from "./components/Register.jsx";
 import Settings from "./components/Settings.jsx";
 import SignUp from "./components/SignUp.jsx";
 
@@ -28,6 +29,7 @@ const App = () => {
   const NAVIGATION = [
     { path: "/", element: <Login /> },
     { path: "/signup", element: <SignUp /> },
+    { path: "/register", element: <Register /> },
     { path: "/dashboard", element: <Dashboard /> },
     { path: "/orders", element: <Orders /> },
     { path: "/orderDetail/:id", element: <OrderDetails /> },
